@@ -143,17 +143,6 @@ class ViewController: UIViewController {
         let savePW : Bool = KeychainWrapper.standard.set(field2.text!, forKey: "PW")
     }
     
-<<<<<<< dev01
-    //rebase test 02
-    
-    //33
-    
-    //44
-=======
-    //05
-    
-    //06
-    
->>>>>>> master01
-}
+//05
 
+}
