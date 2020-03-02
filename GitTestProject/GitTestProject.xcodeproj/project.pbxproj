@@ -20,6 +20,7 @@
 		C45B70F923FD2E3100EF492B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45B70F823FD2E3100EF492B /* Main.storyboard */; };
 		C45B70FB23FD346300EF492B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B70FA23FD346300EF492B /* Model.swift */; };
 		C45B70FD23FD37E300EF492B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45B70FC23FD37E300EF492B /* ViewModel.swift */; };
+		C4E816B223FF6A90002FD3ED /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E816B123FF6A90002FD3ED /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		C45B70F823FD2E3100EF492B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C45B70FA23FD346300EF492B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		C45B70FC23FD37E300EF492B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C4E816B123FF6A90002FD3ED /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 		CF6D7A10A240107604513B7B /* Pods_GitTestProject_GitTestProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitTestProject_GitTestProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E816B223FF6A90002FD3ED /* LocalAuthentication.framework in Frameworks */,
 				4734D3AA950DAD6E97E062FB /* Pods_GitTestProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +101,7 @@
 		1D8D2BCEA65CD0B1657DA494 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4E816B123FF6A90002FD3ED /* LocalAuthentication.framework */,
 				4144752D90760BBAF3DEB9DD /* Pods_GitTestProject.framework */,
 				CF6D7A10A240107604513B7B /* Pods_GitTestProject_GitTestProjectUITests.framework */,
 				BBB1939B0CF262192F3CD6F4 /* Pods_GitTestProjectTests.framework */,
@@ -584,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7MH6464ZN;
 				INFOPLIST_FILE = GitTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -602,6 +607,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N7MH6464ZN;
 				INFOPLIST_FILE = GitTestProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

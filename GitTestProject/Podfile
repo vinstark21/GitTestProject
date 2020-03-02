@@ -9,6 +9,7 @@ target 'GitTestProject' do
   
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
+  pod 'SwiftKeychainWrapper'
 
   target 'GitTestProjectTests' do
     inherit! :search_paths
